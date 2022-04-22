@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Database Form and Report</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="design.css">
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<a class="navbar-brand" href="#">JLabelle Portfolio</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="wordpress.html">WordPress Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="formvaldemo.html">Form Validation Demo</a>
+					</li>
+					<li class="active nav-item">
+						<a class="nav-link" href="databaseFormReport.html">Database Demo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ajaxDemo.html">AJAX Demo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="jqueryDemo.html">JQuery Demo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="resumePage.html">Resume</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sample Projects</a>
+						<div class="dropdown-menu navbar-dark bg-dark" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item text-light" href="project1.html">Project 1</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<header class="page-header header container-fluid">
+			<div class="overlay"></div>
+			<div class="description">
+				<h1>Database Entry and Retrieval</h1>
+				<p>On this page, you will submit a record to a database, and be redirected to a page that will display the record you just entered. The other option will display all the records in the database.</p>
+				<p>Scroll down to see the demo.</p>
+			</div>		
+		</header>
+		<div class="container-fluid features">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<h3 class="feature-title">Insert a Record</h3>
+					<div class="form-group">
+						<form name="dbEntry" action="dbentry.php" method="post">
+							<p><label for="first_name">First Name:</label>  <input type="text" name="first_name" required></p>
+							<p><label for="last_name">Last Name:</label>  <input type="text" name="last_name" required></p>
+							<p><label for="emailAddr">Email Address:</label>  <input type="email" name="emailAddr" required></p>
+							<input type="submit" value="Submit">
+							<p> </p>
+							<p>If you click the "Submit" button, the form-data will be sent to a separate page that will display the record you have created.</p>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<h3 class="feature-title">Retrieve All Records</h3>
+					<div class="form-group">
+						<form name="dbReport" action="dbReport.php" method="post">
+							<p>Click the button below to pull the records contained in the database. Results will be displayed on a separate page.</p>
+							<input type="submit" value="Generate Report">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="page-footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-sm-12">
+						<h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+						<p>This website was for a class project while in attendance at Okanagan College. 
+						<br/>It serves as a hub for my projects and work as a student.</p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<h6 class="text-uppercase font-weight-bold">Contact</h6>
+						<p>Jacob Labelle
+						<br/><a href="mailto:jacob.labelle93@gmail.com" target="_blank">Email Me</a>
+						<br/><a href="https://www.linkedin.com/in/jacob-labelle-3b9740201/" target="_blank">My LinkedIn Profile</a>
+						<br/><a href="https://github.com/jlabelle93" target="_blank">GitHub Profile</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright text-center">Created by Jacob Labelle FALL 2020</div>
+		</footer>
+	</body>
+</html>

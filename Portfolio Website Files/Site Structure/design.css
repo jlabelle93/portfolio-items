@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.dropdown-item:hover {
+	background-color: #2B2B2B;
+}
+
+.header {
+	background-image: url('woodenbg.jpg');
+	background-color: #C8C8C8;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+#failure {
+	color: red;
+	font-weight: bold;
+}
+
+#success {
+	color: green;
+	font-weight: bold;
+}
+
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+  	font-size: 15px;
+}
+
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.login-form h3 {
+    margin: 0 0 15px;
+}
+
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+	margin: 0 0 15px;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.header table {
+	position: relative;
+	z-index: 2;
+}
+
+.table-scroll {
+  max-height: 80%;
+  overflow-y: scroll;
+}
+
+.header h1 {
+	color: #fff;
+}
+
+.description h1 {
+  color: #fff;
+}
+
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description ol, ul {
+  text-align: left;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.features {
+  padding: 1em;
+  position: relative;
+  background-color: #C8C8C8;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.features h5 {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.page-footer {
+  background-color: #343a40;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+#jqDemo {
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+.red-rectangle, .blue-rectangle {
+	max-width: 50%;
+	height: auto;
+	display: block;
+}

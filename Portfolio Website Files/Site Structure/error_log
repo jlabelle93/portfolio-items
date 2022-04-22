@@ -1,0 +1,54 @@
+[09-Nov-2020 22:50:59 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/jlabelle93/public_html/dbentry.php on line 16
+[09-Nov-2020 23:22:22 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/jlabelle93/public_html/dbReport.php on line 23
+[09-Nov-2020 23:22:34 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/jlabelle93/public_html/dbReport.php on line 23
+[09-Nov-2020 23:22:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/jlabelle93/public_html/dbReport.php on line 23
+[09-Nov-2020 23:23:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jlabelle93/public_html/dbReport.php on line 24
+[09-Nov-2020 23:23:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jlabelle93/public_html/dbReport.php on line 24
+[09-Nov-2020 23:26:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jlabelle93/public_html/dbReport.php on line 22
+[09-Nov-2020 23:26:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/jlabelle93/public_html/dbReport.php on line 22
+[09-Nov-2020 23:29:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/dbReport.php on line 33
+[09-Nov-2020 23:29:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/dbReport.php on line 33
+[09-Nov-2020 23:35:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/dbReport.php on line 34
+[09-Nov-2020 23:37:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/dbReport.php on line 30
+[10-Nov-2020 00:15:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/jlabelle93/public_html/dbentry.php on line 41
+[10-Nov-2020 00:15:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/jlabelle93/public_html/dbentry.php on line 41
+[10-Nov-2020 00:16:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/jlabelle93/public_html/dbentry.php on line 42
+[10-Nov-2020 00:19:09 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/jlabelle93/public_html/dbentry.php on line 43
+[10-Nov-2020 00:20:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/jlabelle93/public_html/dbentry.php on line 42
+[10-Nov-2020 00:21:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/jlabelle93/public_html/dbentry.php on line 42
+[10-Nov-2020 00:21:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/jlabelle93/public_html/dbentry.php on line 42
+[10-Nov-2020 00:21:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/jlabelle93/public_html/dbentry.php on line 42
+[01-Dec-2020 00:35:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/jlabelle93/public_html/ajaxDemo.php on line 16
+[01-Dec-2020 00:37:01 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/jlabelle93/public_html/ajaxDemo.php on line 16
+[01-Dec-2020 00:37:08 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/jlabelle93/public_html/ajaxDemo.php on line 16
+[01-Dec-2020 00:51:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/jlabelle93/public_html/ajaxDemo.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/jlabelle93/public_html/ajaxDemo.php on line 27
+[01-Dec-2020 01:02:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/jlabelle93/public_html/ajaxDemo.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/jlabelle93/public_html/ajaxDemo.php on line 28
+[01-Dec-2020 01:10:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/jlabelle93/public_html/ajaxDemo.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/jlabelle93/public_html/ajaxDemo.php on line 28
+[08-Dec-2020 06:22:00 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 19
+[08-Dec-2020 06:23:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 19
+[08-Dec-2020 06:23:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 19
+[08-Dec-2020 06:29:36 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 19
+[08-Dec-2020 06:30:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 19
+[08-Dec-2020 06:36:00 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 19
+[08-Dec-2020 06:38:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 15
+[08-Dec-2020 06:40:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 15
+[08-Dec-2020 06:42:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 15
+[08-Dec-2020 06:45:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 15
+[08-Dec-2020 06:45:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jlabelle93/public_html/projectLogin.php on line 15
+[08-Dec-2020 08:26:56 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/jlabelle93/public_html/projectLogin.php on line 4
+[08-Dec-2020 08:29:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/jlabelle93/public_html/projectLogin.php on line 4
+[08-Dec-2020 08:29:23 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/jlabelle93/public_html/projectLogin.php on line 4
+[08-Dec-2020 08:30:18 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/jlabelle93/public_html/projectLogin.php on line 4
+[08-Dec-2020 08:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on string in /home/jlabelle93/public_html/projectLogin.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/jlabelle93/public_html/projectLogin.php on line 31

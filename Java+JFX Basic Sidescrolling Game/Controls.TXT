@@ -1,0 +1,28 @@
+ _____ _____ _   _________   __  _____ _   _ _____ _____ _____ 
+|_   _|  ___| \ | |  _  \ \ / / |  _  | | | |  ___/  ___|_   _|
+  | | | |__ |  \| | | | |\ V /  | | | | | | | |__ \ `--.  | |  
+  | | |  __|| . ` | | | | \ /   | | | | | | |  __| `--. \ | |  
+  | | | |___| |\  | |/ /  | |   \ \/' / |_| | |___/\__/ / | |  
+  \_/ \____/\_| \_/___/   \_/    \_/\_\\___/\____/\____/  \_/ 
+
+---------------------------------------------------------------
+Jacob Labelle 300306856
+Assignment 10 - COSC 111 L04
+---------------------------------------------------------------
+
+Story
+--------
+The year is 2042. The great Fast Food Wars are at their apex, and only a few foodstuffs remain. As the evil broccoli backed forces advance, you must make your way through enemy lines. You are some guy, who looks suspiciously like the Soldier from Team Fortress 2 but wearing a robot costume. You have a mighty hunger, and that hunger can only be satisfied by delicious chicken tendies...
+---------------------------------------------------------------
+
+Controls
+--------
+Up Arrow Key - Move Up
+Left Arrow Key - Move Left
+Right Arrow Key - Move Right
+Down Arrow Key - Move Down
+
+Space Bar - UNLEASH THE SAUCE BOMB
+
+----------------------------------------------------------------
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AJAX Demo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="design.css">
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<a class="navbar-brand" href="#">JLabelle Portfolio</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="wordpress.html">WordPress Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="formvaldemo.html">Form Validation Demo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="databaseFormReport.html">Database Demo</a>
+					</li>
+					<li class="active nav-item">
+						<a class="nav-link" href="ajaxDemo.html">AJAX Demo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="jqueryDemo.html">JQuery Demo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="resumePage.html">Resume</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sample Projects</a>
+						<div class="dropdown-menu navbar-dark bg-dark" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item text-light" href="project1.html">Project 1</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<header class="page-header header container-fluid">
+			<div class="overlay"></div>
+			<div class="description">
+				<h1>AJAX Demo</h1>
+				<p>This page will demonstrate several applications of AJAX:</p>
+				<ol>
+					<li>Server Responses</li>
+					<li>AJAX POST Request</li>
+					<li>AJAX GET Request</li>
+					<li>AJAX Callback Function</li>
+				</ol>
+				<p>Scroll down to see the demo.</p>
+			</div>		
+		</header>
+		<div class="container-fluid features">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12">
+					<h3 class="feature-title">AJAX Responses from Server</h3>
+					<div class="form-group">
+						<fieldset>
+							<div id="r1"></div>
+							<div id="r2"></div>
+							<div id="r3"></div>
+							<div id="r4"></div>
+							<div id="demoDiv">
+								<button type="button" onclick="loadDoc()">View Server Responses</button>
+							</div>
+						</fieldset>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12">
+					<h3 class="feature-title">AJAX POST</h3>
+					<div class="form-group">
+						<fieldset>
+							<form action="#" onsubmit="submitEmail(); return false">
+								<h5>Submit an Email Address to the Server Using AJAX</h5>
+								<p><label for="emailAddr">Email Address:</label>  <input type="email" name="postEmailAddr" id="postEmailAddr" required></p>
+								<input type="submit" value="Send email to database">
+								<div id="postconfirm"></div>
+							</form>	
+						</fieldset>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12">
+					<div class="form-group">
+						<h3 class="feature-title">AJAX GET</h3>
+						<fieldset>
+							<form action="#" onsubmit="retrieveEmail(); return false">
+								<h5>Check to see if an Email Address is on the Server Using AJAX</h5>
+								<p><label for="emailAddr">Email Address:</label>  <input type="email" name="getEmailAddr" id="getEmailAddr" required></p>
+								<input type="submit" value="Retrieve the email from the database">
+								<div id="getconfirm"></div>
+							</form>
+						</fieldset>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12">
+					<div class="form-group">
+						<h3 class="feature-title">AJAX Callback</h3>
+							<fieldset>
+								<h5>AJAX Callback Function</h5>
+								<p>This function will get a text file from the server that has a super secret message, display it, and then decrypt the message for you to read.</p>
+								<p><button type="button" onclick="getMessage()">Run the callback function</button></p>
+								<div id="encryptedMessage"></div>
+								<br>
+								<div id="decryptedMessage"></div>
+							</fieldset>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="page-footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-sm-12">
+						<h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+						<p>This website was for a class project while in attendance at Okanagan College. 
+						<br/>It serves as a hub for my projects and work as a student.</p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<h6 class="text-uppercase font-weight-bold">Contact</h6>
+						<p>Jacob Labelle
+						<br/><a href="mailto:jacob.labelle93@gmail.com" target="_blank">Email Me</a>
+						<br/><a href="https://www.linkedin.com/in/jacob-labelle-3b9740201/" target="_blank">My LinkedIn Profile</a>
+						<br/><a href="https://github.com/jlabelle93" target="_blank">GitHub Profile</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright text-center">Created by Jacob Labelle FALL 2020</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+<h3>Here's what the server is responding with:</h3>
+
+<p>AJAX stands for Asynchronous JavaScript and XML.</p>
+
+<p>AJAX is not a programming language.</p>
+
+<p>AJAX is a technique for accessing web servers from a web page.</p>
+
+<p>Brought to you by Jacob Labelle.</p>
